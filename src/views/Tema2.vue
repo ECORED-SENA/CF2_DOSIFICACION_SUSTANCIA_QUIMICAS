@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 2
       h1 Análisis de resultados agua cruda
-    p.my-4 Es necesario tener en cuenta dos pasos fundamentales, la coagulación, en donde se desestabilizan los coloides por medio de la neutralización de las cargas, y la floculación, en donde se forman los flóculos y es posible su decantación.
+    p.my-5 Es necesario tener en cuenta dos pasos fundamentales, la coagulación, en donde se desestabilizan los coloides por medio de la neutralización de las cargas, y la floculación, en donde se forman los flóculos y es posible su decantación.
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
@@ -15,7 +15,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Mediante el uso de la prueba de jarras se determinarán las dosis de químicos necesarias para la potabilización del agua. El pH juega un papel muy importante para determinar los fenómenos de coagulación y floculación, dado que el pH debe estar dentro de la zona que corresponde al mínimo de solubilidad de los iones metálicos del coagulante que se haya utilizado.
-    p.my-4 El PH desempeña un papel muy importante en el estudio de los fenómenos de coagulación-floculación, preferiblemente el PH debe quedar dentro de la zona correspondiente al mínimo de solubilidad de los iones metálicos del coagulante usado. La temperatura también es un factor que influye bastante, ya que según disminuye la temperatura del agua deberá aumentarse la dosis de productos químicos utilizados como coagulante para obtener unos flóculos adecuados. 
+    p.my-5 El PH desempeña un papel muy importante en el estudio de los fenómenos de coagulación-floculación, preferiblemente el PH debe quedar dentro de la zona correspondiente al mínimo de solubilidad de los iones metálicos del coagulante usado. La temperatura también es un factor que influye bastante, ya que según disminuye la temperatura del agua deberá aumentarse la dosis de productos químicos utilizados como coagulante para obtener unos flóculos adecuados. 
 
     .row.mb-5.justify-content-center
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -58,27 +58,27 @@
             hr.linea
         .row
           .col-lg-5.col-md-12
-            img.my-4(src='@/assets/curso/tema2/imagen5.png', alt='Métodos estándar para análisis de aguas en laboratorio')
+            img.my-5(src='@/assets/curso/tema2/imagen5.png', alt='Métodos estándar para análisis de aguas en laboratorio')
           .col-lg-7.col-md-12.py-5
             h3.my-5 Métodos estándar para análisis de aguas en laboratorio
             p Una vez se realiza la recepción de las muestras en el laboratorio se procede con la asignación a un analista para su procesamiento. Esto implica someter la muestra objeto de estudio a una serie de procesos que buscan determinar las características de la fuente de origen. Para esto, es necesario cumplir con los métodos definidos y previamente validados para su análisis en el laboratorio.
-            p.my-4 Dentro de los métodos estándar más reconocidos para el análisis muestreo y análisis de aguas se encuentran el Standard Methods y las Normas ISO.
-        h3.my-4 <em>Standard Methods</em>
+            p.my-5 Dentro de los métodos estándar más reconocidos para el análisis muestreo y análisis de aguas se encuentran el Standard Methods y las Normas ISO.
+        h3 <em>Standard Methods</em>
         p.mb-4 El <em>Standard Methods</em> es un referente que, de manera integral, compila todos los aspectos relacionados con las técnicas de análisis de agua incluyendo las aguas residuales.
         .cajon.fondo3.p-4.mb-4.color-primario
           p Este referente ha sido publicado desde 1905 y desde entonces se actualiza constantemente, hoy en día va en su edición número 23. Esta es una publicación producida con recursos y conocimiento conjunto de las 3 asociaciones de salud pública y agua, reconocidas a nivel mundial: La Asociación Americana de la Salud Pública (APHA), Asociación Americana de trabajos del Agua (AWWA) y La Federación del ambiente agua (WEF).
-        p.my-4 El <em>Standard Methods</em> contiene más de 400 métodos para el análisis de agua, debidamente revisados y aprobados por expertos. Estos métodos están divididos en 10 apartados que van desde el apartado 1000 al 10000.
+        p.my-5 El <em>Standard Methods</em> contiene más de 400 métodos para el análisis de agua, debidamente revisados y aprobados por expertos. Estos métodos están divididos en 10 apartados que van desde el apartado 1000 al 10000.
 
     .row.align-items-end
-      .col-lg-3.col-md-2
-        img.my-4(src='@/assets/curso/tema2/cientifico.png', alt='Métodos estándar para análisis de aguas en laboratorio')
-      .col-lg-6.col-md-8
-        img.my-4(src='@/assets/curso/tema2/standardMethods.png', alt='Métodos estándar para análisis de aguas en laboratorio')
-      .col-lg-3.col-md-2
-        img.my-4(src='@/assets/curso/tema2/cientifica.png', alt='Métodos estándar para análisis de aguas en laboratorio')
+      .col-lg-3.col-md-2.col-sm-2
+        img.my-5(src='@/assets/curso/tema2/cientifico.png', alt='Métodos estándar para análisis de aguas en laboratorio')
+      .col-lg-6.col-md-8.col-sm-8
+        img.my-5(src='@/assets/curso/tema2/standardMethods.png', alt='Métodos estándar para análisis de aguas en laboratorio')
+      .col-lg-3.col-md-2.col-sm-2
+        img.my-5(src='@/assets/curso/tema2/cientifica.png', alt='Métodos estándar para análisis de aguas en laboratorio')
 
     p.my-4 En cada uno de los apartados citados anteriormente se encuentra información sobre las técnicas de muestreo, incluyendo la preservación y el almacenamiento de aguas para cada uno de los parámetros analizados dentro de estos 10 tipos de ensayo.
-    p.mb-4 Puede consultar el resumen de los contenidos de cada apartado en la versión <em>web</em> disponible en el siguiente enlace:
+    p.mb-5 Puede consultar el resumen de los contenidos de cada apartado en la versión <em>web</em> disponible en el siguiente enlace:
     .row.justify-content-center
       .col-8
         a.anexo.mb-4.mb-lg-0(href="https://www.standardmethods.org" target="_blank")
@@ -88,7 +88,7 @@
             p Enlace <em>web</em>. Para consultar las normas internacionales por las cuales también son regidos los ensayos de laboratorio que se realizan en el país, puede consultar los <em>Standard Methods for the examination of water and wastewater</em>.
 
     h3 Normas ISO
-    p.my-4 Las normas ISO son otro referente importante para el muestreo y análisis microbiológico y fisicoquímico del agua, elaborados por la organización internacional de normalización ISO con sede en Ginebra suiza y conformada por más de 160 países miembros.
+    p.my-5 Las normas ISO son otro referente importante para el muestreo y análisis microbiológico y fisicoquímico del agua, elaborados por la organización internacional de normalización ISO con sede en Ginebra suiza y conformada por más de 160 países miembros.
 
     .row.justify-content-center.lineaPeq
       .col-lg-7.p-4.col-md-10.fondo3

@@ -3,18 +3,12 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    //- Muestras
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
       h1 Prueba de jarras.
 
-    p.my-4 Para el tratamiento de aguas es necesario determinar los productos químicos y las cantidades que se requieren para su potabilización y el funcionamiento de manera óptima y se reduzcan los costos, para esto se realizan los ensayos de dosificación en escala de laboratorio y obtienen el nombre de pruebas de jarras. 
+    p.my-5 Para el tratamiento de aguas es necesario determinar los productos químicos y las cantidades que se requieren para su potabilización y el funcionamiento de manera óptima y se reduzcan los costos, para esto se realizan los ensayos de dosificación en escala de laboratorio y obtienen el nombre de pruebas de jarras. 
 
     PasosA.color-primario.mb-5(tipo="n")
       .row
@@ -48,8 +42,8 @@
             img(src='@/assets/template/tema1/imagen4.svg', alt='Prueba de jarras')
 
     .row.fondo1.py-5.justify-content-center
-      .col-12.my-4
-        p.my-4.text-center.mb-0 Vamos ahora a visualizar mediante el siguiente video el proceso de tratamiento de aguas, centrándonos en las tres fases que son:  
+      .col-12.my-5
+        p.my-5.text-center.mb-0 Vamos ahora a visualizar mediante el siguiente video el proceso de tratamiento de aguas, centrándonos en las tres fases que son:  
         p.color-texto.text-center.mb-0 mezcla rápida, mezcla lenta y sedimentación. 
         figure.mt-5
           .video
@@ -57,27 +51,13 @@
     .row.justify-content-center
       .col-8.fondo2
         p.py-2.mb-0.text-center Si realmente se ha realizado cada una de las fases explicadas, es momento entonces de tener claridad en el adecuado procedimiento para realizar la prueba de jarras: 
-    //-.row.justify-content-center.p-0
-      .col-md-6.p-0.m-0
-        img(src='@/assets/curso/tema1/uno.png', alt='procedimiento para realizar la prueba de jarras')
-      .col-md-6.p-0.m-0
-        img(src='@/assets/curso/tema1/dos.png', alt='procedimiento para realizar la prueba de jarras')
-      .col-md-6.p-0.m-0
-        img(src='@/assets/curso/tema1/tres.png', alt='procedimiento para realizar la prueba de jarras')
-      .col-lg-2.col-md-6.p-0.m-0
-        img(src='@/assets/curso/tema1/cuatro.png', alt='procedimiento para realizar la prueba de jarras')
-      .col-lg-2.col-md-12.p-0.m-0
-        img(src='@/assets/curso/tema1/cinco.png', alt='procedimiento para realizar la prueba de jarras')
-    img.my-4(src='@/assets/curso/tema1/imagen5.jpg', alt='procedimiento para realizar la prueba de jarras')
+    img.my-5(src='@/assets/curso/tema1/imagen5.jpg', alt='procedimiento para realizar la prueba de jarras')
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),
