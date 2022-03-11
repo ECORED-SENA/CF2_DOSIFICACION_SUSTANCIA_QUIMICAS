@@ -90,7 +90,47 @@
 
         .row
           .col-lg-6.col-md-12
-            LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
+            ul.lista-ul
+              li 
+                i.fas.fa-angle-right
+                | Nombre, fórmula del producto químico e identificación de la compañía y fábrica que lo realiza.
+              li
+                  i.fas.fa-angle-right
+                  | Deben estar identificados los peligros.
+              li 
+                i.fas.fa-angle-right
+                | La composición e información sobre los componentes debe ser explícita.
+              li 
+                i.fas.fa-angle-right
+                | El procedimiento de primeros auxilios en caso de accidente.
+              li 
+                i.fas.fa-angle-right
+                | Se deben establecer las medidas en caso de incendio.
+              li 
+                i.fas.fa-angle-right
+                | Las medidas a tomar en caso de vertido accidental.
+              li 
+                i.fas.fa-angle-right
+                | El manejo y almacenamiento del producto.
+              li 
+                i.fas.fa-angle-right
+                | Los controles de exposición y protección del personal.
+              li 
+                i.fas.fa-angle-right
+                | Las propiedades físicas y químicas del producto.
+              li 
+                i.fas.fa-angle-right
+                | Su estabilidad y reactividad.
+              li 
+                i.fas.fa-angle-right
+                | Debe estar detallada la información toxicológica.
+              li 
+                i.fas.fa-angle-right
+                | Es necesario tener las consideraciones de disposición.
+              li 
+                i.fas.fa-angle-right
+                | Información sobre transporte.
+
           .col-lg-6.col-md-12.centrar
             img(src='@/assets/curso/tema5/imagen1.png')
 
@@ -156,67 +196,6 @@ export default {
         ano: 'Dosificación de coagulante',
         texto:
           'Al momento de dosificar el coagulante se deberá agregar equitativamente sobre todo el caudal para producir la desestabilización y aglutinación de los sólidos que se encuentran suspendidos en el agua. El coagulante que se utiliza con mayor frecuencia es el sulfato de aluminio junto con el cloruro férrico. Estos son aplicados mediante dosificadores asegurando la aplicación homogénea del coagulante.',
-      },
-    ],
-    datosLineaTiempoB: [
-      {
-        texto:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus augue, pulvinar ac auctor at, pellentesque id diam. Praesent maximus, felis sollicitudin pharetra vestibulum, turpis tortor tincidunt augue, in efficitur urna diam eleifend magna.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto:
-          'Nombre, fórmula del producto químico e identificación de la compañía y fábrica que lo realiza.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'Deben estar identificados los peligros.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto:
-          'La composición e información sobre los componentes debe ser explícita.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'El procedimiento de primeros auxilios en caso de accidente. ',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'Se deben establecer las medidas en caso de incendio.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'Las medidas a tomar en caso de vertido accidental.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'El manejo y almacenamiento del producto. ',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'Los controles de exposición y protección del personal.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'Las propiedades físicas y químicas del producto. ',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'Su estabilidad y reactividad.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'Debe estar detallada la información toxicológica.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'Es necesario tener las consideraciones de disposición.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
-      },
-      {
-        texto: 'Información sobre transporte.',
-        icono: require('@/assets/componentes/tema5/ok.svg'),
       },
     ],
   }),
