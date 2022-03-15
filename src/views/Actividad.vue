@@ -24,8 +24,12 @@
 </template>
 
 <script>
+import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Actividad',
+  components: {
+    BannerInterno,
+  },
 }
 </script>
 

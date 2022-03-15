@@ -52,19 +52,21 @@
               p Se enumeran las certificaciones, licencias y permisos necesarios dentro del reglamento técnico del sector de agua potable y saneamiento básico.
             div
               p Definición de conceptos.
-      h3.my-5 Pruebas de tratabilidad
-      p.mb-5 Las pruebas de tratabilidad son utilizadas para definir el diseño adecuado de una planta de tratamiento de agua para potabilización dado que este es el método que más se utiliza para poder determinar y evaluar los procesos de coagulación y floculación.
+    h3.my-5 Pruebas de tratabilidad
+    p.mb-5 Las pruebas de tratabilidad son utilizadas para definir el diseño adecuado de una planta de tratamiento de agua para potabilización dado que este es el método que más se utiliza para poder determinar y evaluar los procesos de coagulación y floculación.
 
-      .bloque-texto-g.p-3.p-sm-4.p-md-5.fondo9
-        .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/tema3/imagen3.jpg')})`}"
-        )
-        .bloque-texto-g__texto.p-4
-          p.mb-0 El color y la turbiedad son algunas de las características del agua las cuales representan una mayor calificación dentro del Índice de Riesgo de la Calidad del Agua (IRCA), es por esto que los objetivos de una planta de tratamiento deben estar enfocados a obtener unas condiciones óptimas de tratabilidad del agua.
-      h3.my-5 NTC Prueba de jarras.
-      p.mb-5 Para la correcta realización de la prueba de jarras para la determinación de la correcta tratabilidad del agua se encuentra la Norma 
-        span.marcador <a href="https://pdfslide.net/documents/ntc-3903-ensayo-de-jarras-561824949d208.html" style="color: white; text-decoration-line: none;" target="_blank">Técnica Colombiana NTC 3903 </a> 
-        | procedimiento para el método de jarras en la coagulación-floculación del agua.
+    .row.justify-content-center
+      .col-10
+        .bloque-texto-g.p-3.p-sm-4.p-md-5.fondo9
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/imagen3.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El color y la turbiedad son algunas de las características del agua las cuales representan una mayor calificación dentro del Índice de Riesgo de la Calidad del Agua (IRCA), es por esto que los objetivos de una planta de tratamiento deben estar enfocados a obtener unas condiciones óptimas de tratabilidad del agua.
+    h3.my-5 NTC Prueba de jarras.
+    p.mb-5 Para la correcta realización de la prueba de jarras para la determinación de la correcta tratabilidad del agua se encuentra la Norma 
+      span.marcador <a href="https://pdfslide.net/documents/ntc-3903-ensayo-de-jarras-561824949d208.html" style="color: white; text-decoration-line: none;" target="_blank">Técnica Colombiana NTC 3903 </a> 
+      | procedimiento para el método de jarras en la coagulación-floculación del agua.
 
     img.my-5(src='@/assets/curso/tema3/Norma.png', alt='Norma Técnica de Colombia')
 
@@ -72,14 +74,58 @@
       .col-lg-4.col-md-10.centrar
         img.my-5(src='@/assets/curso/tema3/imagen4.png', alt='Cálculo de remoción')
       .col-lg-7.col-md-12
-        h3.my-5 Cálculo de remoción
+        h3.my-4 Cálculo de remoción
         p.mb-4 Para poder obtener un cálculo acertado de la remoción de la carga contaminante en un sistema de tratamiento de aguas se debe utilizar la siguiente fórmula:
         .row.justify-content-center
           .col-lg-3.col-md-6.fondo10
-            p.text-white.text-center.mb-0 E = (So - S) / So x 100
-        p.my-5 En donde respectivamente:
+            p.text-white.text-center.mb-0.py-2 E = (So - S) / So x 100
+        p.my-4 En donde respectivamente:
+
 
         .row
+          .col-5.ms-5
+            .row.my-4.justify-content-center
+              .col-auto
+                ImagenInfografica.color-acento-botones.mb-5
+                  template(v-slot:imagen)
+                    figure
+                      img(src='@/assets/template/tema3/tresBotones.svg', alt='Texto que describa la imagen')
+
+                  .tarjeta.color-acento-botones.p-3.col-sm-12(x="74%" y="13%" numero="+")
+                    p Eficiencia de remoción del sistema. 
+
+                  .tarjeta.color-acento-botones.p-3(x="73%" y="51%" numero="+")
+                    p Carga contaminante de salida. 
+
+                  .tarjeta.color-acento-botones.p-3(x="75%" y="86%" numero="+")
+                    p Carga contaminante de entrada
+
+
+
+                //--ImagenInfograficaB.color-primario.mb-5
+                  template(v-slot:imagen)
+                    figure
+                      img(src='@/assets/template/tema3/tresBotones.svg', alt='Texto que describa la imagen')
+
+                  div(x="35%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
+                    h5 titulo
+                    p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+                    p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+                    p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+
+                  div(x="35%" y="50%" tooltip="tooltip de max 35 caracteres")
+                    .h5.mb-2 titulo
+                    p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+
+                  div(x="35%" y="70%" tooltip="tooltip de max 35 caracteres")
+                    .h5.mb-2 titulo
+                    p Lorem ipsum dolor
+
+
+
+
+
+        //--.row
           .col-5.ms-5
 
             .row.my-4
@@ -89,16 +135,16 @@
                   .indicador--click(v-if="mostrarIndicador")
             
             ModalA(:abrir-modal.sync="modal1")
-              p Eficiencia de remoción del sistema.
+              p.text-white Eficiencia de remoción del sistema.
 
             .row
-              .col-auto
+              .col-auto(@mouseover="mostrarIndicador = false").mb-3
                 a.boton.fondo11.indicador__container(@click="modal2 = true")
                   span.text-white S
                   .indicador--click(v-if="mostrarIndicador")
             
-            ModalA(:abrir-modal.sync="modal2")
-              p Carga contaminante de salida.
+            ModalA.nuevoContenidoModal.nuevaModalA(:abrir-modal.sync="modal2")
+              p.text-white Carga contaminante de salida.
 
             .row.my-4
               .col-auto
@@ -109,13 +155,17 @@
             ModalA(:abrir-modal.sync="modal3")
               p Carga contaminante de entrada. 
 
-        p.my-5 A su vez, existen diversos factores que pueden afectar la eficiencia de la remoción, algunos de ellos pueden ser, el tiempo de residencia hidráulico, el medio de soporte, la configuración de los reactores, la temperatura y el pH.
+        p.my-4 A su vez, existen diversos factores que pueden afectar la eficiencia de la remoción, algunos de ellos pueden ser, el tiempo de residencia hidráulico, el medio de soporte, la configuración de los reactores, la temperatura y el pH.
 
 </template>
 
 <script>
+import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Tema3',
+  components: {
+    BannerInterno,
+  },
   data: () => ({
     modal1: false,
     modal2: false,

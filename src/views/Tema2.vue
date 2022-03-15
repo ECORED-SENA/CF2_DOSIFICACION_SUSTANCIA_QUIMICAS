@@ -15,6 +15,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Mediante el uso de la prueba de jarras se determinarán las dosis de químicos necesarias para la potabilización del agua. El pH juega un papel muy importante para determinar los fenómenos de coagulación y floculación, dado que el pH debe estar dentro de la zona que corresponde al mínimo de solubilidad de los iones metálicos del coagulante que se haya utilizado.
+
     p.my-5 El PH desempeña un papel muy importante en el estudio de los fenómenos de coagulación-floculación, preferiblemente el PH debe quedar dentro de la zona correspondiente al mínimo de solubilidad de los iones metálicos del coagulante usado. La temperatura también es un factor que influye bastante, ya que según disminuye la temperatura del agua deberá aumentarse la dosis de productos químicos utilizados como coagulante para obtener unos flóculos adecuados. 
 
     .row.mb-5.justify-content-center
@@ -69,16 +70,17 @@
           p Este referente ha sido publicado desde 1905 y desde entonces se actualiza constantemente, hoy en día va en su edición número 23. Esta es una publicación producida con recursos y conocimiento conjunto de las 3 asociaciones de salud pública y agua, reconocidas a nivel mundial: La Asociación Americana de la Salud Pública (APHA), Asociación Americana de trabajos del Agua (AWWA) y La Federación del ambiente agua (WEF).
         p.my-5 El <em>Standard Methods</em> contiene más de 400 métodos para el análisis de agua, debidamente revisados y aprobados por expertos. Estos métodos están divididos en 10 apartados que van desde el apartado 1000 al 10000.
 
-    .row.align-items-end
-      .col-lg-3.col-md-2.col-sm-2
+    .row.align-items-end.justify-content-center
+      .col-lg-2.col-md-2.col-sm-2
         img.my-5(src='@/assets/curso/tema2/cientifico.png', alt='Métodos estándar para análisis de aguas en laboratorio')
       .col-lg-6.col-md-8.col-sm-8
         img.my-5(src='@/assets/curso/tema2/standardMethods.png', alt='Métodos estándar para análisis de aguas en laboratorio')
-      .col-lg-3.col-md-2.col-sm-2
+      .col-lg-2.col-md-2.col-sm-2
         img.my-5(src='@/assets/curso/tema2/cientifica.png', alt='Métodos estándar para análisis de aguas en laboratorio')
-
-    p.my-4 En cada uno de los apartados citados anteriormente se encuentra información sobre las técnicas de muestreo, incluyendo la preservación y el almacenamiento de aguas para cada uno de los parámetros analizados dentro de estos 10 tipos de ensayo.
-    p.mb-5 Puede consultar el resumen de los contenidos de cada apartado en la versión <em>web</em> disponible en el siguiente enlace:
+    .row.justify-content-center
+      .col-10
+        p.my-4 En cada uno de los apartados citados anteriormente se encuentra información sobre las técnicas de muestreo, incluyendo la preservación y el almacenamiento de aguas para cada uno de los parámetros analizados dentro de estos 10 tipos de ensayo.
+        p.mb-5 Puede consultar el resumen de los contenidos de cada apartado en la versión <em>web</em> disponible en el siguiente enlace:
     .row.justify-content-center
       .col-8
         a.anexo.mb-4.mb-lg-0(href="https://www.standardmethods.org" target="_blank")
@@ -96,7 +98,9 @@
         p La serie de normas 5667 proporcionan directrices para la toma de muestras para el análisis de la calidad del agua. En el caso de muestreo para análisis microbiológico se recomienda consultar la ISO 19458.
       .col-lg-3.col-md-10
         img.imagenPeq(src="@/assets/curso/tema2/imagen6.jpg")        
-
+    .row.justify-content-center.my-5
+      .col-10
+        p Las guías y normas ISO son revisadas y adoptadas como normas técnicas colombianas por el Instituto Colombiano de Normas Técnicas (ICONTEC). Entonces, para consultar las normas ISO traducidas al español y adaptadas al ámbito colombiano se recomienda consultar las normas NTC- ISO.
     .row.justify-content-center.my-5
       .col-8
         a.anexo.mb-4.mb-lg-0(href="https://ecored-sena.github.io/921200_CF3_AGUA_Y_SANAMIENTO/public/main.html#page/protocolos_de_laboratorio/" target="_blank")
@@ -110,8 +114,12 @@
 </template>
 
 <script>
+import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Tema2',
+  components: {
+    BannerInterno,
+  },
   data: () => ({
     // variables de vue
     datosLineaTiempoB: [

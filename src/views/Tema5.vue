@@ -9,10 +9,10 @@
       h1 Unidades de medida
     .row.justify-content-center.my-5
       .col-7.fondo15
-        p.mb-0.text-white.text-center En esta unidad de medida se debe tener muy presente las dos siguiente.
+        p.mb-0.text-white.text-center.p-2 En esta unidad de medida se debe tener muy presente las dos siguiente.
     LineaTiempoA.color-acento-contenido.mb-5(:datos="datosLineaTiempoA")
     .row
-      .col-12.fondo13
+      .col-12.fondo22
         .row.justify-content-center
           .col-7.fondo2.my-5
             p.mb-0.text-center.p-3 Para la correcta determinación de la dosis adecuada de insumos químicos es necesario tener en cuenta los siguientes pasos: 
@@ -78,6 +78,36 @@
             h3.my-5 Equipos de dosificación
             p.mb-5 Los equipos de dosificación son utilizados para suministrar una cantidad de producto fija en el siguiente proceso, estos equipos permiten una gran precisión volumétrica y una continuidad y reproducibilidad. Existen dos tipos de equipos, los volumétricos y los gravimétricos, Los sistemas volumétricos dosifican el material en función de las cantidades, los sistemas gravimétricos pesan el material y lo dosifican en función de la masa.
 
+        //-.row
+          .col-lg-4.col-md-12.col-sm-12.fondo18
+            .row.justify-content-center
+              .col-10.pt-5.mt-5
+                br
+                br
+                p.mt-5.pt-5.text-peq Las bombas dosificadoras están diseñadas para inyectar un químico líquido en la abertura de un fluido. Estos químicos deben ser introducidos en pequeñas cantidades por lo cual es necesario un control preciso y que sean capaces de administrar de manera constante el mismo volumen. Una bomba dosificadora siempre debe permitir el ajuste del caudal de una manera lineal y su diseño debe garantizar la reproductividad, la repetitividad y la presión del volumen desplazado.
+                br
+                p.pb-4.mb-0.text-peq.mb-2 Estas bombas dosificadoras se encuentran en gran variedad y algunos de los tipos más usados son: Bombas de Diafragma, Bombas Electromagnéticas y Bombas Electromecánicas. Las bombas dosificadoras se utilizan para el manejo de cloro, soda, coagulantes, polímeros, floculantes entre otros.
+                br
+        
+          .col-lg-4.col-md-12.col-sm-12.fondo19
+            .row.justify-content-center
+              .col-10.pt-5.mt-5
+                br
+                br
+                p.mt-5.pt-5.text-peq La cloración es un procedimiento de esterilización y desinfección del agua mediante el uso de cloro o compuestos clorados. Su acción germicida erradica las bacterias, mohos y algas. Es por esto que al utilizar el cloro podemos erradicar los agentes patógenos y así conseguiremos eliminar las enfermedades transferidas por el agua.
+                br
+                img.mb-3(src='@/assets/curso/tema5/imagenfondotarjeta2.jpg')
+
+          .col-lg-4.col-md-12.col-sm-12.fondo20
+            .row.justify-content-center
+              .col-10.pt-5.mt-5
+                br
+                br
+                p.mt-5.pt-5.text-peq Estos tanques están diseñados específicamente para la mezcla de dos o más sustancias, pero sin generar ninguna reacción química. Por lo tanto, son parte fundamental en los procesos de dosificación. Son generalmente de forma cilíndrica y pueden ser operados por lotes, con recirculación o en flujo continuo.
+                br
+                img.mb-3(src='@/assets/curso/tema5/imagenfondotarjeta3.jpg')
+        
+        
         .row.mt-2
           .col-lg-4.col-md-12
             img(src='@/assets/curso/tema5/tarjeta1.svg')
@@ -137,34 +167,34 @@
     .row.justify-content-center
       .col-lg-8.col-md-12
         p.py-4.me-0.ms-5 Adicional a ello, es indispensable contar con lo siguiente: 
-          a.boton.fondo11.indicador__container.ms-2.sublineado(@click="modal1 = true")
-            span.text-white Equipo de seguridad
+          a.boton.fondo15.indicador__container.ms-2.sublineado(@click="modal1 = true")
+            span.text-white.text-bold Equipo de seguridad
             .indicador--click(v-if="mostrarIndicador")
     
     ModalA(:abrir-modal.sync="modal1")
-      p Para trabajo rutinario con sustancias químicas y/o residuos peligrosos se debe contar al menos con el siguiente equipo de seguridad:
-      ul.lista-ul.ms-5
+      p.text-white Para trabajo rutinario con sustancias químicas y/o residuos peligrosos se debe contar al menos con el siguiente equipo de seguridad:
+      ul.lista-ul.text-white
         li 
           i.lista-ul__vineta
-          | Casco protector.
+          p.ms-5 Casco protector.
         li
           i.lista-ul__vineta
-          | Gafas de seguridad.
+          p.ms-5 Gafas de seguridad.
         li 
           i.lista-ul__vineta
-          | Máscaras para polvo o gases peligrosos.
+          p.ms-5 Máscaras para polvo o gases peligrosos.
         li 
           i.lista-ul__vineta
-          | Ropa de protección contra salpicaduras químicas.
+          p.ms-5 Ropa de protección contra salpicaduras químicas.
         li 
           i.lista-ul__vineta
-          | Guantes de caucho o látex. 
+          p.ms-5 Guantes de caucho o látex. 
         li 
           i.lista-ul__vineta
-          | Delantal plástico o de goma.
+          p.ms-5 Delantal plástico o de goma.
         li 
           i.lista-ul__vineta
-          | Botas de seguridad punta de acero.
+          p.ms-5 Botas de seguridad punta de acero.
     img.my-5(src='@/assets/curso/tema5/imagen2.png')
 
     .row.justify-content-center
@@ -175,12 +205,50 @@
           .anexo__texto
             p Anexo. Infografía procedimientos de manipulación.
 
+
+  //.tarjeta--container.row.mb-5
+    //- .tarjeta debe ir acompañado de una de una de estas clases => 
+    //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+    //- estas clases tambien tienen un modificador --borde
+    .col-md.tarjeta.color-primario.p-5
+      .row.justify-content-center.mb-4
+        .col-6
+          figure
+            img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+        
+      h2.text-center Celebrate your<br>failures
+      p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    //- .tarjeta debe ir acompañado de una de una de estas clases => 
+    //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+    //- estas clases tambien tienen un modificador --borde
+    .col-md.tarjeta.p-5.fondo18
+      .row.justify-content-center.mb-4
+        .col-12.p-5
+
+      p.mt-5 Las bombas dosificadoras están diseñadas para inyectar un químico líquido en la abertura de un fluido. Estos químicos deben ser introducidos en pequeñas cantidades por lo cual es necesario un control preciso y que sean capaces de administrar de manera constante el mismo volumen. Una bomba dosificadora siempre debe permitir el ajuste del caudal de una manera lineal y su diseño debe garantizar la reproductividad, la repetitividad y la presión del volumen desplazado.
+
+      p Estas bombas dosificadoras se encuentran en gran variedad y algunos de los tipos más usados son: Bombas de Diafragma, Bombas Electromagnéticas y Bombas Electromecánicas. Las bombas dosificadoras se utilizan para el manejo de cloro, soda, coagulantes, polímeros, floculantes entre otros.
+
+    //- .tarjeta debe ir acompañado de una de una de estas clases => 
+    //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+    //- estas clases tambien tienen un modificador --borde
+    .col-md.tarjeta.color-acento-contenido.text-white.p-5
+      .row.justify-content-center.mb-4
+        .col-6
+          figure
+            img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+
+
 </template>
 
 <script>
+import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Tema5',
-  components: {},
+  components: {
+    BannerInterno,
+  },
   data: () => ({
     // variables de vue
     modal1: false,
@@ -209,5 +277,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass"></style>

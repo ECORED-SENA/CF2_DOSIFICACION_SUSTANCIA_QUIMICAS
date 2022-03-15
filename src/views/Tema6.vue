@@ -102,8 +102,8 @@
               .col-3.centrar
                 a.mb-4.mb-lg-0(href="https://laboratoriodeanalisis.lasalle.edu.co/wcm/connect/LIAC/d951c109-a227-44a3-8a42-1d1f87db2b43/Resoluci%C3%B3n_2115-2007.pdf?MOD=AJPERES&CVID=lMo0SFe" target="_blank")
                   img.mt-2(src="@/assets/curso/tema6/enlace.svg")
-              .col-9
-                p.mb-0.p-2.text-white Resolución 2115 de 2007, por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano
+              .col-9.p-4
+                p.mb-0.text-white Resolución 2115 de 2007, por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano
     p.my-5 A continuación, se describen cuáles son las normas que rigen la calidad del agua potable en Colombia: 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Tabla 3.
@@ -123,7 +123,7 @@
             .row.justify-content-center
               .col-lg-10.col-md-12.col-sm-12.centrar
                 a.mb-4.mb-lg-0(href="https://www.ins.gov.co/TyS/Documents/Decreto%201575%20de%202007%2CMPS-MAVDT.pdf" target="_blank")
-                  img.mt-2(src="@/assets/curso/tema6/enlace.svg")
+                  img.mt-2(src="@/assets/curso/tema6/enlace2.svg")
         tr
           th Resolución 2115 de 2007
           td Características, instrumentos básicos y frecuencias del control y vigilancia para la calidad del agua para consumo humano.
@@ -131,7 +131,7 @@
             .row.justify-content-center
               .col-lg-10.col-md-12.col-sm-12.centrar
                 a.mb-4.mb-lg-0(href="https://laboratoriodeanalisis.lasalle.edu.co/wcm/connect/LIAC/d951c109-a227-44a3-8a42-1d1f87db2b43/Resoluci%C3%B3n_2115-2007.pdf?MOD=AJPERES&CVID=lMo0SFe" target="_blank")
-                  img.mt-2(src="@/assets/curso/tema6/enlace.svg")
+                  img.mt-2(src="@/assets/curso/tema6/enlace2.svg")
         tr
           th Resolución 0811 de 2008
           td Lugares y puntos de muestreo para el control y la vigilancia de la calidad del agua para consumo humano en la red de distribución. 
@@ -139,7 +139,7 @@
             .row.justify-content-center
               .col-lg-10.col-md-12.col-sm-12.centrar
                 a.mb-4.mb-lg-0(href="http://aplicacionespruebas.ins.gov.co/sivicap_new/Anexos/Resoluciones/Resolucion811de2008PuntosMuestreo.pdf" target="_blank")
-                  img.mt-2(src="@/assets/curso/tema6/enlace.svg")
+                  img.mt-2(src="@/assets/curso/tema6/enlace2.svg")
         tr
           th Resolución 082 de 2009
           td Formularios para la práctica de visitas de inspección sanitaria a los sistemas de suministro de agua para consumo humano.
@@ -147,7 +147,7 @@
             .row.justify-content-center
               .col-lg-10.col-md-12.col-sm-12.centrar
                 a.mb-4.mb-lg-0(href="https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP/2009%20Resoluci%C3%B3n%20082%20Buenas%20pr%C3%A1cticas%20sanitarias.pdf" target="_blank")
-                  img.mt-2(src="@/assets/curso/tema6/enlace.svg")
+                  img.mt-2(src="@/assets/curso/tema6/enlace2.svg")
         tr
           th Resolución 0082 de 2009
           td Lineamientos para la formulación de mapas de riesgos de cuencas. 
@@ -155,15 +155,18 @@
             .row.justify-content-center
               .col-lg-10.col-md-12.col-sm-12.centrar
                 a.mb-4.mb-lg-0(href="https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP/2009%20Resoluci%C3%B3n%20082%20Buenas%20pr%C3%A1cticas%20sanitarias.pdf" target="_blank")
-                  img.mt-2(src="@/assets/curso/tema6/enlace.svg")
+                  img.mt-2(src="@/assets/curso/tema6/enlace2.svg")
 
 
 </template>
 
 <script>
+import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Tema6',
-  components: {},
+  components: {
+    BannerInterno,
+  },
   data: () => ({
     // variables de vue
   }),
