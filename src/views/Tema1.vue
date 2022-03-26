@@ -55,24 +55,25 @@
         p.py-2.mb-0.text-center Si realmente se ha realizado cada una de las fases explicadas, es momento entonces de tener claridad en el adecuado procedimiento para realizar la prueba de jarras: 
 
     .row.justify-content-center
-      .col-lg-2.col-md-4.col-sm-6
+      .col-lg-4.col-md-6.col-sm-12
         img(src='@/assets/curso/tema1/uno.png', alt='fase uno')
-      .col-lg-2.col-md-4.col-sm-6
+      .col-lg-4.col-md-6.col-sm-12
         img(src='@/assets/curso/tema1/dos.png', alt='fase dos')
-      .col-lg-2.col-md-4.col-sm-6
+      .col-lg-4.col-md-6.col-sm-12
         img(src='@/assets/curso/tema1/tres.png', alt='fase tres')
-      .col-lg-2.col-md-4.col-sm-6
-        img(src='@/assets/curso/tema1/cuatro.png', alt='fase cuatro')
-      .col-lg-2.col-md-4.col-sm-6
-        img(src='@/assets/curso/tema1/cinco.png', alt='fase cinco')
     .row.justify-content-center
-      .col-lg-2.col-md-4.col-sm-6
+      .col-lg-4.col-md-6.col-sm-12
+        img(src='@/assets/curso/tema1/cuatro.png', alt='fase cuatro')
+      .col-lg-4.col-md-6.col-sm-12
+        img(src='@/assets/curso/tema1/cinco.png', alt='fase cinco')
+      .col-lg-4.col-md-6.col-sm-12
         img(src='@/assets/curso/tema1/seis.png', alt='fase seis')
-      .col-lg-2.col-md-4.col-sm-6
+    .row.justify-content-center
+      .col-lg-4.col-md-6.col-sm-12
         img(src='@/assets/curso/tema1/siete.png', alt='fase siete')
-      .col-lg-2.col-md-4.col-sm-6
+      .col-lg-4.col-md-6.col-sm-12
         img(src='@/assets/curso/tema1/ocho.png', alt='fase ocho')
-      .col-lg-2.col-md-4.col-sm-6
+      .col-lg-4.col-md-6.col-sm-12
         img(src='@/assets/curso/tema1/nueve.png', alt='fase nueve')
     //-img.my-5(src='@/assets/curso/tema1/imagen5.jpg', alt='procedimiento para realizar la prueba de jarras')
 </template>

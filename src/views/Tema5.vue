@@ -9,7 +9,7 @@
       h1 Unidades de medida
     .row.justify-content-center.my-5
       .col-7.fondo15
-        p.mb-0.text-white.text-center.p-2 En esta unidad de medida se debe tener muy presente las dos siguiente.
+        p.mb-0.text-white.text-center.p-2.text-bold En esta unidad de medida se debe tener muy presente las dos siguientes.
     LineaTiempoA.color-acento-contenido.mb-5(:datos="datosLineaTiempoA")
     .row
       .col-12.fondo22
@@ -164,13 +164,14 @@
           .col-lg-6.col-md-12.centrar
             img(src='@/assets/curso/tema5/imagen1.png')
 
-    .row.justify-content-center
-      .col-lg-8.col-md-12
-        p.py-4.me-0.ms-5 Adicional a ello, es indispensable contar con lo siguiente: 
-          a.boton.fondo15.indicador__container.ms-2.sublineado(@click="modal1 = true")
-            span.text-white.text-bold Equipo de seguridad
+    .row.align-items-center
+      .col-8
+        p.py-4.me-0.ms-5.me-0 Adicional a ello, es indispensable contar con lo siguiente: 
+          a.fondo5.boton.indicador__container.ms-2.sublineado.p-2.me-0(@click="modal1 = true")
+            span.text-white.text-bold.me-0 Equipo de seguridad
             .indicador--click(v-if="mostrarIndicador")
-    
+      .col-1
+        img.imagenPeq2.mover-izq.mb-2(src='@/assets/curso/tema5/circuloamarillo.svg')
     ModalA(:abrir-modal.sync="modal1")
       p.text-white Para trabajo rutinario con sustancias químicas y/o residuos peligrosos se debe contar al menos con el siguiente equipo de seguridad:
       ul.lista-ul.text-white

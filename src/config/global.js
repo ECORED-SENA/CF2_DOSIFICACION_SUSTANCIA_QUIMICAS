@@ -65,11 +65,6 @@ export default {
     ],
     subMenu: [
       {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
-      },
-      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
@@ -221,14 +216,67 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Jorge Enrique Haylock Calderín',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Andrés Mauricio Santaella Ochoa',
         cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jorge Enrique Haylock Calderín',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Yenny Patricia Ulloa Villamizar',
+        cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
