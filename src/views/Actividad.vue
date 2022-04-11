@@ -10,26 +10,22 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Cuestionario de selección múltiple
-        p.mb-4 Afianzar algunos de los conceptos sobre las pruebas de jarras y equipos de dosificación.
+          h2 Titulo de la actividad
+        p.mb-4 Cras tempus tortor et nisi tincidunt feugiat. Integer lacus ante, venenatis nec fringilla quis, dapibus ut dui. Fusce imperdiet velit a leo sagittis, id scelerisque massa placerat. Duis at dui sed enim euismod pulvinar quis ac ante. Phasellus condimentum sapien nisi, ac facilisis purus tristique ac. Quisque magna est, luctus vitae elit ut, convallis venenatis justo. Nunc pretium elit a nisi tempus sagittis.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Seleccione la respuesta correcta.
+              p.fw-bold.mb-0 Descripción de la actividad didáctica.
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('https://docs.google.com/document/d/1i-ZxQvaSmycrf67VwPdqkKyEFUziwnrh/edit')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
-
+                
 </template>
 
 <script>
-import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Actividad',
-  components: {
-    BannerInterno,
-  },
 }
 </script>
 

@@ -1,1 +1,1 @@
-module.exports = 'Pruebas de jarras y equipos de dosificación.'
+module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'

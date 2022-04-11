@@ -3,25 +3,17 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
-    p.my-4 Aprendiz, cordial bienvenida al componente de formación dos, da clic sobre el video para que tenga un panorama general del recorrido del mismo.
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
 <script>
-import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Introduccion',
-  components: {
-    BannerInterno,
-  },
   data: () => ({
     // variables de vue
   }),
