@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Pruebas de jarras y equipos de dosificación',
+    descripcionCurso:
+      'En este componente formativo, se abordan temas importantes que le permitirá adquirir habilidades para realizar pruebas a una muestra de agua y posteriormente dosificar la cantidad correcta de sustancias químicas para su potabilización.',
+    imagenBannerPrincipal: require('@/assets/curso/banner/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/banner/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
