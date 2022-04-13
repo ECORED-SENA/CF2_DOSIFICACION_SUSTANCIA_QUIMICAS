@@ -17,7 +17,9 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         img.img-t.img-a(:src="globalData.imagenBannerPrincipal" style="max-width: 65%")
-
+    .imagen_flotante_1: img(src="@/assets/curso/banner/float1.svg")
+    .imagen_flotante_2: img(src="@/assets/curso/banner/float2.svg")
+    .imagen_flotante_3: img(src="@/assets/curso/banner/float3.svg")
 
 </template>
 
@@ -100,9 +102,9 @@ export default {
   &_1
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    width: 170px
-    top: 8%
-    left: -6% !important
+    width: 70px
+    top: 80%
+    left: 28% !important
     z-index: 0
     @media (min-width: 1400px)
       left: -3%
@@ -110,17 +112,17 @@ export default {
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 90px
-    bottom: -35px !important
-    left: 30%
+    top: 15px !important
+    left: 50% !important
     @media (min-width: 1400px)
-      bottom: -25px
-      left: 27%
+      top: 15px !important
+      left: 50% !important
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
-    width: 160px
-    top: 30%
-    right: -4% !important
+    width: 60px
+    top: 70%
+    right: 14% !important
     z-index: 0
     @media (min-width: 1400px)
       right: -2%

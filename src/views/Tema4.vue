@@ -9,36 +9,45 @@
 
     p(data-aos="fade-down") Es necesario tener en cuenta dos pasos fundamentales, la coagulación, en donde se desestabilizan los coloides por medio de la neutralización de las cargas, y la floculación, en donde se forman los flóculos y es posible su decantación.
 
-    .row.mt-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-3
-              p.mb-0 Consiste básicamente en introducir productos clorados que en su mayoría son pastillas, en el agua para matar todos aquellos microorganismos que se encuentren presentes. 
+    .row.justify-content-center(data-aos="fade-down")
+      .col-lg-3.col-md-9.mb-3.mb-md-0
+        .row.px-2.pt-2.h-100
+          .col-12.m-0.holder.align-items-center.px-0
+            figure
+              img(src="@/assets/curso/temas/img38.jpg", alt="")
 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img38.jpg')})`}")
-
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img39.jpg')})`}")
-            .tarjeta-slide__contenido.p-3
-              p.mb-0 Usualmente el proceso tarda alrededor de unos 30 minutos y gracias al efecto remanente que tiene el cloro, el efecto continuo durante horas o incluso días. 
-
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img40.jpg')})`}")
-            .tarjeta-slide__contenido.p-3
-              p.mb-0 Este procedimiento se utiliza en las grandes redes de distribución de agua potable desde hace ya varias décadas atrás añadiendo cloro al agua para que durante su transporte no se contamine con microorganismos presentes en los sistemas de alcantarillado.    
-
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img41.jpg')})`}")
-            .tarjeta-slide__contenido.p-3
-              p.mb-0 Este tratamiento permite evitar enfermedades como lo son fiebres tifoideas, disentería y la cólera, aunque es incapaz de eliminar algunos parásitos patógenos, ya que este proceso desinfecta el agua, pero no la purifica por completo.             
+            .text.p-lg-2.p-3
+              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
+                .p.mt-4.mt-lg-0 Consiste básicamente en  
+                p introducir productos clorados que en su mayoría son pastillas, en el agua para matar todos aquellos microorganismos que se encuentren presentes. 
+      .col-lg-3.col-md-9.mb-3.mb-md-0
+        .row.px-2.pt-2.h-100
+          .col-12.m-0.holder.align-items-center.px-0(@mouseover="mostrarIndicador = false")
+            .indicador--hover(v-if="mostrarIndicador")
+            figure
+              img(src="@/assets/curso/temas/img39.jpg", alt="")
+            .text.p-lg-2.p-3
+              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
+                .p.mt-4.mt-lg-0 Usualmente el proceso tarda 
+                p alrededor de unos 30 minutos y gracias al efecto remanente que tiene el cloro, el efecto continuo durante horas o incluso días.
+      .col-lg-3.col-md-9.mb-3.mb-md-0
+        .row.px-2.pt-2.h-100
+          .col-12.m-0.holder.align-items-center.px-0
+            figure
+              img(src="@/assets/curso/temas/img40.jpg", alt="a")
+            .text.p-lg-2.p-3
+              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
+                .p.mt-4.mt-lg-0 Este procedimiento se utiliza en 
+                p las grandes redes de distribución de agua potable desde hace ya varias décadas atrás añadiendo cloro al agua para que durante su transporte no se contamine con microorganismos presentes en los sistemas de alcantarillado.   
+      .col-lg-3.col-md-9.mb-3.mb-md-0
+        .row.px-2.pt-2.h-100
+          .col-12.m-0.holder.align-items-center.px-0
+            figure
+              img(src="@/assets/curso/temas/img41.jpg", alt="a")
+            .text.p-lg-2.p-3
+              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
+                .p.mt-4.mt-lg-0 Este tratamiento permite evitar
+                p enfermedades como lo son fiebres tifoideas, disentería y la cólera, aunque es incapaz de eliminar algunos parásitos patógenos, ya que este proceso desinfecta el agua, pero no la purifica por completo. 
 
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-10
@@ -99,7 +108,7 @@ export default {
     BannerInterno,
   },
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
