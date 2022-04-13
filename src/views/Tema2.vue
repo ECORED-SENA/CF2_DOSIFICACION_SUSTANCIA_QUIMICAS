@@ -60,7 +60,7 @@
       .col-lg-7
         .row.justify-content-start.align-items-center.title-color.p-2(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block             
-          .col-lg-8.ps-2
+          .col-lg-11.ps-2
             h5.mb-0 Métodos estándar para análisis de aguas en laboratorio
         .row.justify-content-start.align-items-center(data-aos="fade-left")
           .col-1.p-0.d-none.d-lg-block.t-up
