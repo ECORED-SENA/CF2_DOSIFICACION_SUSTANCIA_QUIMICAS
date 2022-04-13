@@ -138,8 +138,8 @@
                 i.fas.fa-link
 
     .titulo-sexto.color-acento-contenido.mt-5 
-      h5 Tabla 2.
-      span Resolución 2115 de 2007
+      h5 Tabla 3.
+      span Normas Calidad Agua Potable
 
     .tabla-a.color-color-primario
       table
