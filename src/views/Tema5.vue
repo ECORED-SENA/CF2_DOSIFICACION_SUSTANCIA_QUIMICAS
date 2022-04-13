@@ -112,43 +112,43 @@
                           img.img-t.img-a.my-3(src='@/assets/curso/temas/img52.jpg', alt='')
                         .col-lg-8
                           ul.lista-ul--color.mb-0
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 Nombre, fórmula del producto químico e identificación de la compañía y fábrica que lo realiza.
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 Deben estar identificados los peligros.
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 La composición e información sobre los componentes debe ser explícita. 
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 El procedimiento de primeros auxilios en caso de accidente. 
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 Se deben establecer las medidas en caso de incendio.
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 Las medidas a tomar en caso de vertido accidental.
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 El manejo y almacenamiento del producto. 
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 Los controles de exposición y protección del personal.
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 Las propiedades físicas y químicas del producto. 
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 Su estabilidad y reactividad.
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 Debe estar detallada la información toxicológica.
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 Es necesario tener las consideraciones de disposición.
-                            li(data-aos="fade-down") 
+                            li 
                               i.lista-ul__vineta
                               p.mb-0 Información sobre transporte
  
