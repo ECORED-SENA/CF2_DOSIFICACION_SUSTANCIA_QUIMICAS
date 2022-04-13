@@ -23,39 +23,47 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Pruebas de jarras',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Análisis de resultados agua cruda',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Lineamientos técnicos de agua potable y saneamiento',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Cloración',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Unidades de medida',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Normatividad de calidad de agua',
         desarrolloContenidos: true,
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -91,32 +99,72 @@ export default {
   },
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto: 'Resolución 0330, 8 de junio del 2017.',
+      tipo: 'Resolución',
+      link:
+        'https://www.minvivienda.gov.co/sites/default/files/documentos/0330-2017.pdf',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      texto:
+        'ALAC Cajamarca. Proceso de cloración de sistemas de agua potable. 18 de dic. 2020. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=AqJ9HY-gqsE',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Calidad del agua',
+      significado:
+        'Es el resultado entre la comparación de las características presentes en el agua contra los parámetros que están contenidos en las normas que regulan el agua potable. ',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Cloración del agua',
+      significado:
+        'Es el proceso por el cual se desinfecta el agua utilizando cloro o compuestos clorados. ',
+    },
+    {
+      termino: 'Desinfección',
+      significado:
+        'En este proceso se eliminan todos aquellos organismos patógenos que se encuentren presentes en el agua. ',
+    },
+    {
+      termino: 'Muestreo',
+      significado:
+        'Es el proceso por el cual se toma una muestra para ser analizada en un laboratorio y así obtener información sobre la calidad del agua en un área específica.',
+    },
+    {
+      termino: 'Prueba de Jarras',
+      significado:
+        'Es un ensayo de laboratorio que permite simular las etapas de coagulación – floculación para realizar dicha selección de los químicos adecuados y obtener una determinada calidad de agua final. ',
     },
   ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Castañeda, Mónica; Bernal, Lina. Trabajo de Grado. Establecer la demanda de cloro en el acueducto tribunas Córcega de la ciudad de Pereira. Pereira, 2008. Obtenido de internet el 4 de noviembre de 2021. ',
+      link: 'https://core.ac.uk/download/pdf/71396109.pdf',
+    },
+    {
+      referencia:
+        'DESIN, S.A. ¿Qué es, para qué sirve y cuándo se debe realizar una prueba de jarras?, 15 de junio de 2021. Tomado de internet el 3 de noviembre de 2021. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.disin.com/que-es-para-que-sirve-y-cuando-se-debe-realizar-una-prueba-de-jarras/',
+    },
+    {
+      referencia:
+        'ISA, Ingeniería y Servicios Ambientales. Prueba de Jarras. Obtenido de internet el 3 de nov. de 21. ',
+      link: 'https://isa.ec/prueba-de-jarras/',
+    },
+    {
+      referencia:
+        'Ministerio de Desarrollo Económico. Nov,2000. REGLAMENTO TÉCNICO DEL SECTOR DE AGUA POTABLE Y SANEAMIENTO BÁSICO, RAS. Obtenido de internet el 8 de noviembre de 21. ',
+      link: 'https://procurement-notices.undp.org/view_file.cfm?doc_id=16483',
+    },
+    {
+      referencia:
+        'SENA, Programa de capacitación y certificación del sector de agua potable y saneamiento básico. Obtenido de internet el 8 de noviembre de 2021. ',
+      link:
+        'https://repositorio.sena.edu.co/sitios/calidad_del_agua/index.html#',
     },
   ],
   creditos: {
@@ -134,6 +182,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Víctor Julián Ardila',
+        cargo: 'Instructor',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Beatriz Eugenia Agudelo Vásquez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluadora Instruccional',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital.',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Distrito Capital.',
+      },
     ],
     desarrolloProducto: [
       {
@@ -143,20 +212,61 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Edward Leonardo Pico Cabra',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
