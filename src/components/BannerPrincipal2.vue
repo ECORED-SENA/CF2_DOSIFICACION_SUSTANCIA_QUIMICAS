@@ -3,7 +3,7 @@
   .container.tarjeta.position-relative(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center.py-5
+    .row.banner-principal__row.position-relative.justify-content-center.align-items-center.py-4
       .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
@@ -16,7 +16,7 @@
             i.fas.fa-angle-right
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
-        img.img-t.img-a(:src="globalData.imagenBannerPrincipal" style="max-width: 65%")
+        img.img-t.img-a(:src="globalData.imagenBannerPrincipal" style="max-width: 360px")
     .imagen_flotante_1: img(src="@/assets/curso/banner/float1.svg")
     .imagen_flotante_2: img(src="@/assets/curso/banner/float2.svg")
     .imagen_flotante_3: img(src="@/assets/curso/banner/float3.svg")

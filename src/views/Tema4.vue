@@ -17,9 +17,9 @@
               img(src="@/assets/curso/temas/img38.jpg", alt="")
 
             .text.p-lg-2.p-3
-              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                .p.mt-4.mt-lg-0 Consiste básicamente en  
-                p introducir productos clorados que en su mayoría son pastillas, en el agua para matar todos aquellos microorganismos que se encuentren presentes. 
+              .row.text-center.pt-2
+                .p.mt-0 Consiste básicamente en  
+                p.mb-5 introducir productos clorados que en su mayoría son pastillas, en el agua para matar todos aquellos microorganismos que se encuentren presentes. 
       .col-lg-3.col-md-9.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.holder.align-items-center.px-0(@mouseover="mostrarIndicador = false")
@@ -27,27 +27,27 @@
             figure
               img(src="@/assets/curso/temas/img39.jpg", alt="")
             .text.p-lg-2.p-3
-              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                .p.mt-4.mt-lg-0 Usualmente el proceso tarda 
-                p alrededor de unos 30 minutos y gracias al efecto remanente que tiene el cloro, el efecto continuo durante horas o incluso días.
+              .row.text-center.pt-2
+                .p.mt-0 Usualmente el proceso tarda 
+                p.mb-5 alrededor de unos 30 minutos y gracias al efecto remanente que tiene el cloro, el efecto continuo durante horas o incluso días.
       .col-lg-3.col-md-9.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.holder.align-items-center.px-0
             figure
               img(src="@/assets/curso/temas/img40.jpg", alt="a")
             .text.p-lg-2.p-3
-              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                .p.mt-4.mt-lg-0 Este procedimiento se utiliza en 
-                p las grandes redes de distribución de agua potable desde hace ya varias décadas atrás añadiendo cloro al agua para que durante su transporte no se contamine con microorganismos presentes en los sistemas de alcantarillado.   
+              .row.text-center.pt-2
+                .p.mt-0 Este procedimiento se utiliza en 
+                p.mb-5 las grandes redes de distribución de agua potable desde hace ya varias décadas atrás añadiendo cloro al agua para que durante su transporte no se contamine con microorganismos presentes en los sistemas de alcantarillado.   
       .col-lg-3.col-md-9.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.holder.align-items-center.px-0
             figure
               img(src="@/assets/curso/temas/img41.jpg", alt="a")
             .text.p-lg-2.p-3
-              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                .p.mt-4.mt-lg-0 Este tratamiento permite evitar
-                p enfermedades como lo son fiebres tifoideas, disentería y la cólera, aunque es incapaz de eliminar algunos parásitos patógenos, ya que este proceso desinfecta el agua, pero no la purifica por completo. 
+              .row.text-center.pt-2
+                .p.mt-0 Este tratamiento permite evitar
+                p.mb-5 enfermedades como lo son fiebres tifoideas, disentería y la cólera, aunque es incapaz de eliminar algunos parásitos patógenos, ya que este proceso desinfecta el agua, pero no la purifica por completo. 
 
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-10

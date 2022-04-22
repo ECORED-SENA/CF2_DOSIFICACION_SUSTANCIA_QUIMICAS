@@ -102,7 +102,7 @@
 
                 p Antes de manipular una sustancia química se debe conocer la hoja de datos de seguridad en la cual debe estar estipulada la siguiente información: 
                 .row.justify-content-center.mt-3
-                  .col-4
+                  .col-5
                     a.boton.color-color-acento-botones.indicador__container(@click="modal2 = true")
                       span Datos de seguridad 
                       .indicador--click(v-if="mostrarIndicador")
@@ -159,29 +159,29 @@
         .col-lg-4
           img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img14.svg', alt='') 
       .row.justify-content-center.align-items-center.mt-5    
-        .col-lg-6
+        .col-lg-7
           .tarjeta.tarjeta--azul.p-4.radius1(data-aos="flip-down")
             SlyderA
               .row.justify-content-center.align-items-center
-                .col-11
+                .col-12
                   p.text-center.mb-0 Casco protector.  
               .row.justify-content-center.align-items-center
-                .col-11
+                .col-12
                   p.text-center.mb-0 Gafas de seguridad.
               .row.justify-content-center.align-items-center
-                .col-11
+                .col-12
                   p.text-center.mb-0 Máscaras para polvo o gases peligrosos.
               .row.justify-content-center.align-items-center
                 .col-11
                   p.text-center.mb-0  Ropa de protección contra salpicaduras químicas.
               .row.justify-content-center.align-items-center
-                .col-11
+                .col-12
                   p.text-center.mb-0 Guantes de caucho o látex. 
               .row.justify-content-center.align-items-center
-                .col-11
+                .col-12
                   p.text-center.mb-0 Delantal plástico o de goma.
               .row.justify-content-center.align-items-center
-                .col-11
+                .col-12
                   p.text-center.mb-0 Botas de seguridad punta de acero. 
 
       p(data-aos="fade-down").mt-5.text-center Procedimientos de manipulación

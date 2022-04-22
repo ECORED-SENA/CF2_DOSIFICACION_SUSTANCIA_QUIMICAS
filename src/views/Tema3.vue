@@ -36,11 +36,12 @@
       p(data-aos="fade-down").mt-5 La resolución 0330 de 2017 reglamenta cuales son los requisitos técnicos que se deben cumplir en cada una de las etapas, de diseño, construcción, puesta en marcha, operación, mantenimiento y rehabilitación de aquella infraestructura que esté relacionada con los servicios de alcantarillado, acueducto y aseo. 
       .row.justify-content-center.align-items-center.mt-5       
         .col-lg-6
-          p(data-aos="fade-down").text-center.mb-0.p-color7.p-4  El contenido que maneja esta resolución 0330 de 2012 es el siguiente:     
-
-
-      .row.justify-content-end.align-items-center.mt-5     
-        .col-lg-10.ps-5.up
+          p(data-aos="fade-down").text-center.mb-0.p-color7.p-4  El contenido que maneja esta resolución 0330 de 2012 es el siguiente: 
+          
+      .row.justify-content-center.align-items-center.mt-5
+        .col-lg-4.p-0.my-1
+          img(data-aos="zoom-in")(src='@/assets/curso/temas/img55.png', alt='')           
+        .col-lg-8.my-2
           ul.lista-ul--color
             li(data-aos="fade-down").mb-0 
               i.lista-ul__vineta
@@ -56,11 +57,30 @@
               p.mb-0 Se enumeran las certificaciones, licencias y permisos necesarios dentro del reglamento técnico del sector de agua potable y saneamiento básico.
             li(data-aos="fade-down").mb-0 
               i.lista-ul__vineta
-              p.mb-0 Definición de conceptos.         
+              p.mb-0 Definición de conceptos.
 
-      .row.justify-content-start.align-items-center     
-        .col-lg-4.t-up2.d-none.d-lg-block
-          img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img23.png', alt='') 
+      //- .row.justify-content-end.align-items-center.mt-5     
+      //-   .col-lg-10.ps-5.up
+      //-     ul.lista-ul--color
+      //-       li(data-aos="fade-down").mb-0 
+      //-         i.lista-ul__vineta
+      //-         p.mb-0 Se presentan las condiciones generales del reglamento técnico para los sectores de agua potable y saneamiento básico.
+      //-       li(data-aos="fade-down").mb-0 
+      //-         i.lista-ul__vineta
+      //-         p.mb-0 Se especifican los requisitos técnicos: En esta resolución se esclarecen los procesos que se deben involucrar en el diseño, la construcción y previa supervisión de los sistemas de acueducto, alcantarillado y aseo que se desarrollen en el país. 
+      //-       li(data-aos="fade-down").mb-0 
+      //-         i.lista-ul__vineta
+      //-         p.mb-0 Se hace un control y régimen de sanciones del reglamento técnico del sector de agua potable y saneamiento básico.
+      //-       li(data-aos="fade-down").mb-0 
+      //-         i.lista-ul__vineta
+      //-         p.mb-0 Se enumeran las certificaciones, licencias y permisos necesarios dentro del reglamento técnico del sector de agua potable y saneamiento básico.
+      //-       li(data-aos="fade-down").mb-0 
+      //-         i.lista-ul__vineta
+      //-         p.mb-0 Definición de conceptos.         
+
+      //- .row.justify-content-start.align-items-center     
+      //-   .col-lg-4.t-up2.d-none.d-lg-block
+      //-     img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img23.png', alt='') 
 
     .row.justify-content-start.align-items-center.mt-5           
       .col-lg-6

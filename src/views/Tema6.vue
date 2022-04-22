@@ -133,7 +133,7 @@
             .col-md.col-lg-6
               p #[b Resolución 2115 de 2007], por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano.
               
-              a.boton.color-acento-botones(href="https://laboratoriodeanalisis.lasalle.edu.co/wcm/connect/LIAC/d951c109-a227-44a3-8a42-1d1f87db2b43/Resoluci%C3%B3n_2115-2007.pdf?MOD=AJPERES&CVID=lMo0SFe" target="_blank")
+              a.boton.color-acento-botones.mb-4(href="https://laboratoriodeanalisis.lasalle.edu.co/wcm/connect/LIAC/d951c109-a227-44a3-8a42-1d1f87db2b43/Resoluci%C3%B3n_2115-2007.pdf?MOD=AJPERES&CVID=lMo0SFe" target="_blank")
                 span Enlace web
                 i.fas.fa-link
 

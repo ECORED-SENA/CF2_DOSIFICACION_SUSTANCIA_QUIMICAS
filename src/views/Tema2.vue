@@ -67,7 +67,7 @@
             img.img-t(src='@/assets/curso/temas/icon.svg',alt='') 
 
     .row.justify-content-center.align-items-center.mt-5           
-      .col-lg-3
+      .col-lg-3.my-3
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img13.svg', alt='') 
       .col-lg-9
         p(data-aos="fade-down") Una vez se realiza la recepción de las muestras en el laboratorio se procede con la asignación a un analista para su procesamiento. Esto implica someter la muestra objeto de estudio a una serie de procesos que buscan determinar las características de la fuente de origen. Para esto, es necesario cumplir con los métodos definidos y previamente validados para su análisis en el laboratorio.
@@ -76,7 +76,7 @@
 
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-10.bg-color4.px-5        
-        p(data-aos="fade-down").mt-4.text-center Standard methods
+        p(data-aos="fade-down").mt-4.text-center #[b Standard methods]
         .row.justify-content-center.align-items-center    
           .col-lg-4
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img14.svg', alt='') 
@@ -101,7 +101,7 @@
                   .anexo__texto
                     p.text-white Enlace web. Para consultar las normas internacionales por las cuales también son regidos los ensayos de laboratorio que se realizan en el país, puede consultar los Standard Methods for the examination of water and wastewater             
 
-        p(data-aos="fade-down").mt-5.text-center Normas ISO
+        p(data-aos="fade-down").mt-5.text-center #[b Normas ISO]
 
         .row.justify-content-center.align-items-center    
           .col-lg-4
@@ -109,14 +109,16 @@
         .row.justify-content-center.align-items-center        
           .col-lg-10                    
             p(data-aos="fade-down").mt-5 Las normas ISO son otro referente importante para el muestreo y análisis microbiológico y fisicoquímico del agua, elaborados por la organización internacional de normalización ISO con sede en Ginebra suiza y conformada por más de 160 países miembros.
-               
-    .row.justify-content-center.align-items-stretch.mt-5           
-      .col-lg-7.bg-color6.p-4.ps-5.up
-        p(data-aos="fade-down") Las normas son realizadas por comités técnicos, expertos en cada uno de los temas de normalización. En el caso del muestreo y análisis de agua, el comité técnico encargado es el ISO TC 146 y el subcomité 6 es el encargado de trabajar en guías y normas para el muestreo de aguas. El subcomité 4 es el encargado de trabajar específicamente en los aspectos relacionados con el análisis microbiológico de aguas.
 
-        p(data-aos="fade-down").mb-0 La serie de normas 5667 proporcionan directrices para la toma de muestras para el análisis de la calidad del agua. En el caso de muestreo para análisis microbiológico se recomienda consultar la ISO 19458.       
-      .col-lg-3.bg-color6.up
-        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img17.png', alt='') 
+    .row.justify-content-center.align-items-end.mt-5           
+      .col-lg-10.bg-color6.pt-4               
+        .row.justify-content-center.align-items-end       
+          .col-lg-8.p-4.ps-5.up
+            p(data-aos="fade-down") Las normas son realizadas por comités técnicos, expertos en cada uno de los temas de normalización. En el caso del muestreo y análisis de agua, el comité técnico encargado es el ISO TC 146 y el subcomité 6 es el encargado de trabajar en guías y normas para el muestreo de aguas. El subcomité 4 es el encargado de trabajar específicamente en los aspectos relacionados con el análisis microbiológico de aguas.
+
+            p(data-aos="fade-down") La serie de normas 5667 proporcionan directrices para la toma de muestras para el análisis de la calidad del agua. En el caso de muestreo para análisis microbiológico se recomienda consultar la ISO 19458.       
+          .col-lg-4.up
+            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img17.png', alt='') 
 
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-10
