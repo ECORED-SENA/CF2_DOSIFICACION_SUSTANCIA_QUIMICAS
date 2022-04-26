@@ -146,12 +146,6 @@ export default {
     },
     {
       referencia:
-        'DESIN, S.A. ¿Qué es, para qué sirve y cuándo se debe realizar una prueba de jarras?, 15 de junio de 2021. Tomado de internet el 3 de noviembre de 2021. ',
-      link:
-        'https://www.disin.com/que-es-para-que-sirve-y-cuando-se-debe-realizar-una-prueba-de-jarras/',
-    },
-    {
-      referencia:
         'ISA, Ingeniería y Servicios Ambientales. Prueba de Jarras. Obtenido de internet el 3 de nov. de 21. ',
       link: 'https://isa.ec/prueba-de-jarras/',
     },
