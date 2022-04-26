@@ -72,19 +72,19 @@
       .col-lg-9
         p(data-aos="fade-down") Una vez se realiza la recepción de las muestras en el laboratorio se procede con la asignación a un analista para su procesamiento. Esto implica someter la muestra objeto de estudio a una serie de procesos que buscan determinar las características de la fuente de origen. Para esto, es necesario cumplir con los métodos definidos y previamente validados para su análisis en el laboratorio.
 
-        p(data-aos="fade-down") Dentro de los métodos estándar más reconocidos para el análisis muestreo y análisis de aguas se encuentran el Standard Methods y las Normas ISO.   
+        p(data-aos="fade-down") Dentro de los métodos estándar más reconocidos para el análisis muestreo y análisis de aguas se encuentran el <i>Standard Methods</i> y las Normas ISO.   
 
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-10.bg-color4.px-5        
-        p(data-aos="fade-down").mt-4.text-center #[b Standard methods]
+        p(data-aos="fade-down").mt-4.text-center #[b #[i Standard methods]]
         .row.justify-content-center.align-items-center    
           .col-lg-4
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img14.svg', alt='') 
-        p(data-aos="fade-down").mt-5 El Standard Methods es un referente que, de manera integral, compila todos los aspectos relacionados con las técnicas de análisis de agua incluyendo las aguas residuales.
+        p(data-aos="fade-down").mt-5 El <i>Standard Methods</i> es un referente que, de manera integral, compila todos los aspectos relacionados con las técnicas de análisis de agua incluyendo las aguas residuales.
 
-        p(data-aos="fade-down").p-yellow.p-4.mb-0 Este referente ha sido publicado desde 1905 y desde entonces se actualiza constantemente, hoy en día va en su edición número 23. Esta es una publicación producida con recursos y conocimiento conjunto de las 3 asociaciones de salud pública y agua, reconocidas a nivel mundial: La Asociación Americana de la Salud Pública (APHA), Asociación Americana de trabajos del Agua (AWWA) y La Federación del ambiente agua (WEF).
+        p(data-aos="fade-down").p-yellow.p-4.mb-0 Este referente ha sido publicado desde 1905 y desde entonces se actualiza constantemente, hoy en día va en su edición número 23. Esta es una publicación producida con recursos y conocimiento conjunto de las 3 asociaciones de salud pública y agua, reconocidas a nivel mundial: la Asociación Americana de la Salud Pública (APHA), Asociación Americana de trabajos del Agua (AWWA) y La Federación del ambiente agua (WEF).
 
-        p(data-aos="fade-down").mt-5 El Standard Methods contiene más de 400 métodos para el análisis de agua, debidamente revisados y aprobados por expertos. Estos métodos están divididos en 10 apartados que van desde el apartado 1000 al 10000.
+        p(data-aos="fade-down").mt-5 El <i>Standard Methods</i> contiene más de 400 métodos para el análisis de agua, debidamente revisados y aprobados por expertos. Estos métodos están divididos en 10 apartados que van desde el apartado 1000 al 10000.
       .bg_img2
         .row.justify-content-center.align-items-center         
           .col-lg-10.bg-color5.px-5.pb-5       
@@ -99,7 +99,7 @@
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
-                    p.text-white Enlace web. Para consultar las normas internacionales por las cuales también son regidos los ensayos de laboratorio que se realizan en el país, puede consultar los Standard Methods for the examination of water and wastewater             
+                    p.text-white Enlace web. Para consultar las normas internacionales por las cuales también son regidos los ensayos de laboratorio que se realizan en el país, puede consultar los <i>Standard Methods for the examination of water and wastewater</i>            
 
         p(data-aos="fade-down").mt-5.text-center #[b Normas ISO]
 

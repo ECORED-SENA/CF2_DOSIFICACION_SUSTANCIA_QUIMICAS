@@ -20,12 +20,12 @@
             .row.justify-content-center.align-items-center
               .col-lg-12
                 img.img-t.img-a(src='@/assets/curso/temas/img20.png', alt='') 
-                p.p-color-slyder.pt-5.p-5.t-up1.mb-0 En Colombia el uso de las Guías y Manuales del RAS es obligatorio para los sistemas de captación, conducción, almacenamiento y tratamiento de agua residual y potable según la resolución 0330 de 2017.
+                p.p-color-slyder.pt-5.p-5.t-up1.mb-0 En Colombia el uso de las guías y manuales del RAS es obligatorio para los sistemas de captación, conducción, almacenamiento y tratamiento de agua residual y potable según la resolución 0330 de 2017.
 
             .row.justify-content-center.align-items-center
               .col-lg-12
                 img.img-t.img-a(src='@/assets/curso/temas/img21.png', alt='') 
-                p.p-color-slyder.pt-5.p-5.t-up1.mb-0 Hasta el momento hay 14 manuales definidos por el gobierno sobre las buenas prácticas en el sector de saneamiento y agua en Colombia
+                p.p-color-slyder.pt-5.p-5.t-up1.mb-0 Hasta el momento hay 14 manuales definidos por el gobierno sobre las buenas prácticas en el sector de saneamiento y agua en Colombia.
 
 
             .row.justify-content-center.align-items-center
@@ -48,7 +48,7 @@
               p.mb-0 Se presentan las condiciones generales del reglamento técnico para los sectores de agua potable y saneamiento básico.
             li(data-aos="fade-down").mb-0 
               i.lista-ul__vineta
-              p.mb-0 Se especifican los requisitos técnicos: En esta resolución se esclarecen los procesos que se deben involucrar en el diseño, la construcción y previa supervisión de los sistemas de acueducto, alcantarillado y aseo que se desarrollen en el país. 
+              p.mb-0 Se especifican los requisitos técnicos: en esta resolución se esclarecen los procesos que se deben involucrar en el diseño, la construcción y previa supervisión de los sistemas de acueducto, alcantarillado y aseo que se desarrollen en el país. 
             li(data-aos="fade-down").mb-0 
               i.lista-ul__vineta
               p.mb-0 Se hace un control y régimen de sanciones del reglamento técnico del sector de agua potable y saneamiento básico.
@@ -58,29 +58,6 @@
             li(data-aos="fade-down").mb-0 
               i.lista-ul__vineta
               p.mb-0 Definición de conceptos.
-
-      //- .row.justify-content-end.align-items-center.mt-5     
-      //-   .col-lg-10.ps-5.up
-      //-     ul.lista-ul--color
-      //-       li(data-aos="fade-down").mb-0 
-      //-         i.lista-ul__vineta
-      //-         p.mb-0 Se presentan las condiciones generales del reglamento técnico para los sectores de agua potable y saneamiento básico.
-      //-       li(data-aos="fade-down").mb-0 
-      //-         i.lista-ul__vineta
-      //-         p.mb-0 Se especifican los requisitos técnicos: En esta resolución se esclarecen los procesos que se deben involucrar en el diseño, la construcción y previa supervisión de los sistemas de acueducto, alcantarillado y aseo que se desarrollen en el país. 
-      //-       li(data-aos="fade-down").mb-0 
-      //-         i.lista-ul__vineta
-      //-         p.mb-0 Se hace un control y régimen de sanciones del reglamento técnico del sector de agua potable y saneamiento básico.
-      //-       li(data-aos="fade-down").mb-0 
-      //-         i.lista-ul__vineta
-      //-         p.mb-0 Se enumeran las certificaciones, licencias y permisos necesarios dentro del reglamento técnico del sector de agua potable y saneamiento básico.
-      //-       li(data-aos="fade-down").mb-0 
-      //-         i.lista-ul__vineta
-      //-         p.mb-0 Definición de conceptos.         
-
-      //- .row.justify-content-start.align-items-center     
-      //-   .col-lg-4.t-up2.d-none.d-lg-block
-      //-     img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img23.png', alt='') 
 
     .row.justify-content-start.align-items-center.mt-5           
       .col-lg-6
@@ -120,7 +97,7 @@
             p(data-aos="fade-down") Para la correcta realización de la prueba de jarras para la determinación de la correcta tratabilidad del agua se encuentra la Norma #[b Técnica Colombiana NTC 3903], procedimiento para el método de jarras en la coagulación-floculación del agua.
         .row.justify-content-center.align-items-center.mt-5          
           .col-lg-4(data-aos="fade-down")  
-            a.anexo.mb-4.bg-a(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4.bg-a(href="https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=2947 o en ICONTEC NT 3903" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

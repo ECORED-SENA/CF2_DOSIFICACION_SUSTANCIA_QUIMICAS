@@ -116,7 +116,7 @@
                   td 0
 
                 tr.table-bg
-                  td Eschericha coli
+                  td <i>Eschericha</i> coli
                   td 0
 
                 tr.table-bg1
